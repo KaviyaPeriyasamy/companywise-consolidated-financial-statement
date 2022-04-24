@@ -1,0 +1,47 @@
+[
+    {"account_name": "Income", "account": "Income - CAPGRID", "parent_account": None, "indent": 0.0, "year_start_date": datetime.date(2021,
+        4,
+        1), "root_type": "Income", "year_end_date": datetime.date(2022,
+        3,
+        31), "currency": None, "company_wise_opening_bal": defaultdict(<class "float">,
+        {"CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 0.0, "CAPGRID-GURGAON": 0.0
+        }), "opening_balance": -0.0, "CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 19250137.45, "CAPGRID-GURGAON": 2155273.4, "has_value": True, "total": 21405410.849999998
+    },
+    {"account_name": "Direct Income", "account": "Direct Income - CAPGRID", "parent_account": "Income - CAPGRID", "indent": 1.0, "year_start_date": datetime.date(2021,
+        4,
+        1), "root_type": "Income", "year_end_date": datetime.date(2022,
+        3,
+        31), "currency": None, "company_wise_opening_bal": defaultdict(<class "float">,
+        {"CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 0.0, "CAPGRID-GURGAON": 0.0
+        }), "opening_balance": -0.0, "CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 19240796.45, "CAPGRID-GURGAON": 2155273.4, "has_value": True, "total": 21396069.849999998
+    },
+    {"account_name": "Sales", "account": "Sales - CAPGRID", "parent_account": "Direct Income - CAPGRID", "indent": 2.0, "year_start_date": datetime.date(2021,
+        4,
+        1), "root_type": "Income", "year_end_date": datetime.date(2022,
+        3,
+        31), "currency": None, "company_wise_opening_bal": defaultdict(<class "float">,
+        {}), "opening_balance": -0.0, "CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 19240796.45, "CAPGRID-GURGAON": 2155273.4, "has_value": True, "total": 21396069.849999998
+    },
+    {"account_name": "Service", "account": "Service - CAPGRID", "parent_account": "Direct Income - CAPGRID", "indent": 2.0, "year_start_date": datetime.date(2021,
+        4,
+        1), "root_type": "Income", "year_end_date": datetime.date(2022,
+        3,
+        31), "currency": None, "company_wise_opening_bal": defaultdict(<class "float">,
+        {}), "opening_balance": -0.0, "CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 0.0, "CAPGRID-GURGAON": 0.0, "has_value": False, "total": 0
+    },
+    {"account_name": "Indirect Income", "account": "Indirect Income - CAPGRID", "parent_account": "Income - CAPGRID", "indent": 1.0, "year_start_date": datetime.date(2021,
+        4,
+        1), "root_type": "Income", "year_end_date": datetime.date(2022,
+        3,
+        31), "currency": None, "company_wise_opening_bal": defaultdict(<class "float">,
+        {"CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 0.0, "CAPGRID-GURGAON": 0.0
+        }), "opening_balance": -0.0, "CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 9341.0, "CAPGRID-GURGAON": 0.0, "has_value": True, "total": 9341.0
+    },
+    {"account_name": "Discount Received", "account": "Discount Received - CAPGRID", "parent_account": "Indirect Income - CAPGRID", "indent": 2.0, "year_start_date": datetime.date(2021,
+        4,
+        1), "root_type": "Income", "year_end_date": datetime.date(2022,
+        3,
+        31), "currency": None, "company_wise_opening_bal": defaultdict(<class "float">,
+        {}), "opening_balance": -0.0, "CapGrid Solutions Pvt. Ltd.": 0.0, "CAPGRID-HOSUR": 9341.0, "CAPGRID-GURGAON": 0.0, "has_value": True, "total": 9341.0
+    }
+]
